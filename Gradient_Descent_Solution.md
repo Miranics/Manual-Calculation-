@@ -24,13 +24,17 @@ where $\hat{y}_i = mx_i + b$ (predicted value)
 **Partial Derivatives:**
 
 For $m$:
+
 $$\frac{\partial J}{\partial m} = \frac{1}{n} \sum_{i=1}^{n} 2(y_i - \hat{y}_i) \cdot (-x_i) = -\frac{2}{n} \sum_{i=1}^{n} (y_i - \hat{y}_i) \cdot x_i$$
 
 For $b$:
+
 $$\frac{\partial J}{\partial b} = \frac{1}{n} \sum_{i=1}^{n} 2(y_i - \hat{y}_i) \cdot (-1) = -\frac{2}{n} \sum_{i=1}^{n} (y_i - \hat{y}_i)$$
 
 **Update Rules:**
+
 $$m_{new} = m_{old} - \alpha \cdot \frac{\partial J}{\partial m}$$
+
 $$b_{new} = b_{old} - \alpha \cdot \frac{\partial J}{\partial b}$$
 
 ---
