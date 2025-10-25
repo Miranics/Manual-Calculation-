@@ -1,1 +1,3 @@
-# Manual-Calculation-
+# Manual-Calculation-    
+
+Probability Distributions, Bayesian Probability, and Gradient Descent Implementation
