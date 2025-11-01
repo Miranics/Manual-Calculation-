@@ -1,6 +1,6 @@
 # Gradient Descent Manual Calculation Solution
 
-## Problem Setup
+
 
 **Given:**
 - Linear equation: $y = mx + b$
