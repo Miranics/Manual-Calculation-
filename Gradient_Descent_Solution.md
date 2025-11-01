@@ -1,6 +1,6 @@
 # Gradient Descent Manual Calculation Solution
 
-## Problem Setup
+
 
 **Given:**
 - Linear equation: $y = mx + b$
@@ -218,7 +218,7 @@ $$b_3 = 1.9 + 0.016 = 1.916$$
 
 ---
 
-## Key Takeaways for Beginners
+## Key Takeaways
 
 1. **Gradient descent iteratively improves parameters** by moving in the direction opposite to the gradient
 2. **The learning rate ($\alpha = 0.1$)** controls how big each step is
